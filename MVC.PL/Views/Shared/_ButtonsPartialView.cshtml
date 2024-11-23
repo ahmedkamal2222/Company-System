@@ -1,0 +1,16 @@
+﻿@model string
+<td>
+    <a class="btn btn-success" asp-action="Details" asp-route-id="@Model">
+        <i class="fas fas-eye"></i>Details
+    </a>
+</td>
+<td>
+    <a class="btn btn-warning" asp-action="Update" asp-route-id="@Model">
+        <i class="fas fas-edit"></i> Update
+    </a>
+</td>
+<td>
+    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model">
+        <i class="fas fas-edit"></i> Delete
+    </a>
+</td>
